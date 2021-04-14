@@ -1,0 +1,11 @@
+1. Eclipse 32 位元
+2. net.sf.jadclipse_3.3.0.jar 放在 eclipse\dropins\ 目錄下
+3. 重開 Eclipse
+4. Eclipse → Window → Preferences → Java → JadClipse
+    Path to decomplier
+        設定 jad.exe 的路徑位置
+5. Eclipse → Window → Preferences → General → Editors → File Associations
+    File types:
+        *.class without source
+    Associated editors:
+        JadClipse Class File Viewer (default)
